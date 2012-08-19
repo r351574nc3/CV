@@ -1,32 +1,38 @@
 Leo Przybylski
 ==============
-2450 N. Palo Hacha • Tucson, AZ 85745 (520) 440-1252 • r351574nc3gmail.com
-￼
+
+2450 N. Palo Hacha
+Tucson, AZ 85745 
+(520) 440-1252 
+r351574nc3gmail.com
+
 
 
 Objective
 ---------
 To obtain a position with a reliable, well-established company/institution as a senior software developer with po- tential growth to become a highly-ranked development manager or software architect.
+
 Summary of Qualifications
+-------------------------
 9 years experience including n-tier enterprise application development with Java, software documentation with UML, and working with unified/agile processes.
-• Developed software using Ruby, Python, Groovy, and Perl scripting languages.
-• Strong agile/iconix development process experience.
-• Generated source code of XML, SQL, and interpreted scripting languages.
-• Developed software using SOA and template-driven UI with Oracle and MySQL.
-• Strong experience with Struts, Spring MVC, RoR, Django, and Grails.
-• Experience with Rich and Simple domain models with OR/M.
-• Nosql database experience with databases like Berkeley DB, BigTable, and CouchDB.
-• Enthusiasm and motivation to work with new technologies.
-• Proven experience in rich user interfaces with javascript libraries jQuery, Dojo, prototype, and scriptaculous.
-• Awareoftoolsusefulinvaryingapplications,andactivelysearchesforbettersolutionstoimproveworkoutput and productivity.
-• Proven experience in rich user interfaces with AJAX.
-• Capable of writing/maintaining technical documentation and specifications with LaTeX, UML/ER diagrams, flowcharts, Atlassian Confluence or Microsoft Word.
-• Strong familiarity with SCM tools RPM, Hudson, Ant, Ivy, Maven2, SVN and Git.
-• Strong familiarity with metadata standards and ontologies including RDF, Dublin Core, FOAF, Microformats, OWL, DAML, and OAI.
+* Developed software using Ruby, Python, Groovy, and Perl scripting languages.
+* Strong agile/iconix development process experience.
+* Generated source code of XML, SQL, and interpreted scripting languages.
+* Developed software using SOA and template-driven UI with Oracle and MySQL.
+* Strong experience with Struts, Spring MVC, RoR, Django, and Grails.
+* Experience with Rich and Simple domain models with OR/M.
+* Nosql database experience with databases like Berkeley DB, BigTable, and CouchDB.
+* Enthusiasm and motivation to work with new technologies.
+* Proven experience in rich user interfaces with javascript libraries jQuery, Dojo, prototype, and scriptaculous.
+* Awareoftoolsusefulinvaryingapplications,andactivelysearchesforbettersolutionstoimproveworkoutput and productivity.
+* Proven experience in rich user interfaces with AJAX.
+* Capable of writing/maintaining technical documentation and specifications with LaTeX, UML/ER diagrams, flowcharts, Atlassian Confluence or Microsoft Word.
+* Strong familiarity with SCM tools RPM, Hudson, Ant, Ivy, Maven2, SVN and Git.
+* Strong familiarity with metadata standards and ontologies including RDF, Dublin Core, FOAF, Microformats, OWL, DAML, and OAI.
 
 Experience
 ----------
-• rSmart Scottsdale, AZ
+* rSmart Scottsdale, AZ
 Java Developer 2012 – Present
 – I travel to higher education institutions and help them to develop customizations to KFS, KC, and Kuali Rice source code.
 – I help them develop test plans and strategies for automated unit tests, usability tests, and integration.
@@ -58,7 +64,7 @@ analysts on the Travel and Entertainment Module.
 – OntheTEMproject,Iamresponsiblefordeterminingdevelopmentprocess,technicaldesignandwriting
 of technical specifications, software development, and change management.
 – I also am a mentor to other developers at rSmart.
-• University of Arizona Tucson, AZ Mosaic/KFS Architect / Mosaic Project Implementation October/2008 – September/2010
+* University of Arizona Tucson, AZ Mosaic/KFS Architect / Mosaic Project Implementation October/2008 – September/2010
 – I managed and designed integration efforts between external systems like Peoplesoft and Kuali applica- tions.
 – I also created and maintained the development process used for kuali applications developers to pro- duce/maintain/disseminate documentation.
 – Occassionally, I define scope, developed project plans, give time estimates and monitored progress of implementation assignments to project team members.
@@ -74,10 +80,10 @@ across KFS and KC implementations.
 – Designed systems management and development dashboards to provide diagnostic views of KFC and
 KC implementations.
 – Integrated KFS with UA Enterprise Directory Service and BMC Control-M.
-• University of Arizona Tucson, AZ Kuali Research Administration Senior Developer July/2007 – September/2008
+* University of Arizona Tucson, AZ Kuali Research Administration Senior Developer July/2007 – September/2008
 – Developed new software components for the Proposal Development module
 – Created materials and taught sessions at several Kuali Bootcamp training events
-• University of Arizona Tucson, AZ
+* University of Arizona Tucson, AZ
 Application Systems Analyst, Senior / Kuali Financial System Labor Distribution Development Manager and Team LeadNovember/20
 – Manage tasks/issues for resources using Atlassian Jira.
 – Create Confluence documentation templates for Labor Distribution developer documentation.
@@ -92,11 +98,11 @@ cations, test plans, and usability test coordination.
 project progress.
 – Developed new software components for the Labor Distribution module of the Kuali Financial System
 using Spring, DWR, Struts MVC, OJB, Kuali Rice, Kuali Nervous System, Kuali Enterprise Worfkflow, and JSP/JSTL.
-• University of Arizona Tucson, AZ Application Systems Analyst, Senior June/2005 – November/2006
+* University of Arizona Tucson, AZ Application Systems Analyst, Senior June/2005 – November/2006
 –
 – –
 – – – –
-– • IBM
+– * IBM
 Collaborated with Subject Matter Experts (SMEs) to better understand Financial Information Systems (FIS,) an existing software system used by higher education institutions, and functional requirements of the new software system.
 Maintenance development work for Kuali Project (an enterprise financial system for higher education.) Created presentations and proposals for new refactoring using Atlassian Confluence, LaTeX, and UML technologies.
 Developed and maintained written documention of developed components using Atlassian Confluence Built OJB Mappings and Data Access Objects for persistent storage Business Objects.
@@ -118,7 +124,7 @@ bleshooting network configuration issues.)
 storage systems (Reef and Megamouth Shark) using BASH shell scripting, Perl, and C/C++ (GTK+).
 – Assisted in hardware support and maintenance of IBM total storage systems (Reef) by troubleshooting
 and replacing various hardware components.
-• University of Arizona Tucson, AZ
+* University of Arizona Tucson, AZ
 Application Systems Analyst January/2002 – April/2004
 – Mentored student developers
 – Created development environment suitable for multiple developers/programmers to collaborate easily
@@ -135,7 +141,7 @@ complex operating systems and related software to meet users needs.
 – Developed/designedmetadatabrowsing/directoryserviceforbrowsingmetadatafromarepositorythrough a directory service API (JNDI).
 – Designed database structure to support storage flexible to support different metadata formats (Dublin Core, GROW, etc...) in mass quantities on MySQL and Oracle DBMS.
 – Managed MySQL DBMS migration to Oracle DBMS.
-• Coremetrics, Inc. Austin, TX
+* Coremetrics, Inc. Austin, TX
 Network Systems Programmer/Analysis, and Data Acquisition Engineer June/1999 – November/2001
 – Developed three-tier distributed applications with Java using Servlets, JSP, JDBC 2.0 (oracle Platform), Enterprise Java Beans 1.1 JINI 1.0.1 and Java Spaces.
 – Maintained Apache Web Server module used for data collection.
@@ -155,9 +161,9 @@ handle software load-balancing, dynamic network data transfer demographics, mult
 
 Education
 ---------
-• Pima County Community College
+* Pima County Community College
 AGECS
-• University of Arizona Linguistics/Computer Science
+* University of Arizona Linguistics/Computer Science
 Tucson, AZ
 1994 – 1999
 Tucson, AZ

@@ -1,7 +1,8 @@
 Leo Przybylski
+==============
 2450 N. Palo Hacha • Tucson, AZ 85745 (520) 440-1252 • r351574nc3gmail.com
 ￼
-==
+
 
 Objective
 To obtain a position with a reliable, well-established company/institution as a senior software developer with po- tential growth to become a highly-ranked development manager or software architect.

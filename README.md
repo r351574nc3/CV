@@ -5,6 +5,7 @@ Leo Przybylski
 
 
 Objective
+---------
 To obtain a position with a reliable, well-established company/institution as a senior software developer with po- tential growth to become a highly-ranked development manager or software architect.
 Summary of Qualifications
 9 years experience including n-tier enterprise application development with Java, software documentation with UML, and working with unified/agile processes.
@@ -22,7 +23,9 @@ Summary of Qualifications
 • Capable of writing/maintaining technical documentation and specifications with LaTeX, UML/ER diagrams, flowcharts, Atlassian Confluence or Microsoft Word.
 • Strong familiarity with SCM tools RPM, Hudson, Ant, Ivy, Maven2, SVN and Git.
 • Strong familiarity with metadata standards and ontologies including RDF, Dublin Core, FOAF, Microformats, OWL, DAML, and OAI.
+
 Experience
+----------
 • rSmart Scottsdale, AZ
 Java Developer 2012 – Present
 – I travel to higher education institutions and help them to develop customizations to KFS, KC, and Kuali Rice source code.
@@ -148,7 +151,10 @@ munication between servers, domains and subnets by message protocols over multic
 networking standards.
 – Increased data security and integrity in Cormetrics network communication architecture with tools that
 handle software load-balancing, dynamic network data transfer demographics, multiple future plans for standard data structures with XML, XSLT, XML-schemas, and proprietary encoding formats.
-￼Education
+￼
+
+Education
+---------
 • Pima County Community College
 AGECS
 • University of Arizona Linguistics/Computer Science

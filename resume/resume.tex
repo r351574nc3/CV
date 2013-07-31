@@ -16,24 +16,24 @@
 \newenvironment{indentsection}[1]%
 {\begin{list}{}%
 	{\setlength{\leftmargin}{#1}}%
-	\item[]%
-}
-{\end{list}}
+  \item[]%
+  }
+  {\end{list}}
 
 % opposite of above; bump a section back toward the left margin
 \newenvironment{unindentsection}[1]%
 {\begin{list}{}%
 	{\setlength{\leftmargin}{-0.5#1}}%
-	\item[]%
-}
-{\end{list}}
+  \item[]%
+  }
+  {\end{list}}
 
 % format two pieces of text, one left aligned and one right aligned
 \newcommand{\headerrow}[2]
 {\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
 	#1 &
 	#2 \\
-\end{tabular*}}
+  \end{tabular*}}
 
 % make "C++" look pretty when used in text by touching up the plus signs
 \newcommand{\CPP}
@@ -43,21 +43,20 @@
 \begin{document}
 
 \begin{center}
-{\LARGE \textbf{Leo Przybylski}}
+  {\LARGE \textbf{Leo Przybylski}}
 
-\ \ 2450 N. Palo Hacha\ \ \textbullet
-\ \ Tucson, AZ 85745
-\\
-(520) 440-1252\ \ \textbullet
-\ \ r351574nc3\@gmail.com
+  \ \ 2450 N. Palo Hacha\ \ \textbullet
+  \ \ Tucson, AZ 85745
+  \\
+  (520) 440-1252\ \ \textbullet
+  \ \ r351574nc3\@gmail.com
 \end{center}
 
 \hrule
 \vspace{-0.4em}
 \subsection*{Objective}
 To obtain a position with a reliable, well-established
-company/institution as a senior software developer with potential
-growth to become a highly-ranked development manager or software
+company/institution as highly-ranked development manager or software
 architect.
 
 \subsection*{Summary of Qualifications}
@@ -73,7 +72,7 @@ documentation with UML, and working with unified/agile processes.
 \item Nosql database experience with databases like Berkeley DB, BigTable, and CouchDB.
 \item Enthusiasm and motivation to work with new technologies.
 \item Proven experience in rich user interfaces with javascript libraries jQuery, Dojo, 
-prototype, and scriptaculous.
+  prototype, and scriptaculous.
 \item Aware of tools useful in varying applications, and actively
   searches for better solutions to improve work output and productivity.
 \item Proven experience in rich user interfaces with AJAX.
@@ -87,262 +86,290 @@ prototype, and scriptaculous.
 \subsection*{Experience}
 
 \begin{itemize}
-	\parskip=0.1em
+  \parskip=0.1em
 
-	\item
-	\headerrow
-		{\textbf{rSmart}}
-		{\textbf{Scottsdale, AZ}}
-	\\
-	\headerrow
-		{\emph{Java Developer}}
-		{\emph{2012 -- Present}}
-	\begin{itemize*}
-      \item I travel to higher education institutions and help them to develop
-customizations to KFS, KC, and Kuali Rice source code.
-\item I help them develop test plans and strategies for automated unit tests, usability
-tests, and integration. 
-\item Institutions also need me to advise on
-performance, performance testing, security, and software configuration
-management. 
-\item I am also responsible for providing training materials and
-execution of training staff at higher education institutions on large
-scale software systems, web services, middleware, and java web
-application development. 
-\item When I'm not travelling, I work on developing
-software for the Kuali Foundation. 
-\item I have collaborated with a dispersed development team including subject matter experts and
-business analysts on the Travel and Entertainment Module. 
-\item On the TEM project, I am responsible for determining development process,
-technical design and writing of technical specifications, software
-development, and change management. 
-    \item I also am a mentor to other developers at rSmart.
-	\end{itemize*}
-	
-	\headerrow
-		{\emph{Release Manager (Kuali Foundation)}}
-		{\emph{2011 -- 2012}}
-	\begin{itemize*}
-      \item I developed tools to manage the Kuali Rice software
-        release process. 
-      \item I also worked on releasing software to the sonatype nexus
-        repository for the Kuali Foundation. This led to releases
-        regularly becoming available via maven central for the
-        org.kuali groupId. 
-      \item I simplified our EC2 deployment process by including
-        automated delivery of software, automated Jenkins Slave nodes,
-        and automated AMI and Volume/Snapshot backups for EC2. We were
-        a small team and my focus was largely to reduce the
-        responsibility for developers through automation so they could
-        focus more on development and less on process. 
-        \item I also worked with the development team by configuring
-          and handling the performance analysis of Kuali Rice. By
-          configuring tools like java visualvm, java melody, jprobe,
-          hprof, the java garbage collector, jrocket JVM, and yourkit,
-          I have contributed in helping improve performance in Kuali
-          applications. 
-        \item I have also learned and experienced much in areas such
-          as performance tuning the JVM.
-        \end{itemize*}
-	
-	\headerrow
-		{\emph{Java Developer}}
-		{\emph{2010 -- 2011}}
-	\begin{itemize*}
-      \item I worked on developing software for the Kuali Foundation. 
-      \item I have collaborated with a dispersed development team
-        including subject matter experts and business analysts on the
-        Travel and Entertainment Module. 
-      \item On the TEM project, I am responsible for determining
-        development process, technical design and writing of technical
-        specifications, software development, and change management.
-        \item I also am a mentor to other developers at rSmart.
-	\end{itemize*}
+\item
+  \headerrow
+  {\textbf{rSmart}}
+  {\textbf{Scottsdale, AZ}}
+  \\
+  \headerrow
+  {\emph{Java Developer}}
+  {\emph{2012 -- Present}}
+  \begin{itemize*}
+  \item I travel to higher education institutions and help them to develop
+    customizations to KFS, KC, and Kuali Rice source code.
+  \item I help them develop test plans and strategies for automated unit tests, usability
+    tests, and integration. 
+  \item Institutions also need me to advise on
+    performance, performance testing, security, and software configuration
+    management. 
+  \item I am also responsible for providing training materials and
+    execution of training staff at higher education institutions on large
+    scale software systems, web services, middleware, and java web
+    application development. 
+  \item When I'm not travelling, I work on developing
+    software for the Kuali Foundation. 
+  \item I have collaborated with a dispersed development team including subject matter experts and
+    business analysts on the Travel and Entertainment Module. 
+  \item On the TEM project, I am responsible for determining development process,
+    technical design and writing of technical specifications, software
+    development, and change management. 
+  \item I also am a mentor to other developers at rSmart.
+  \item On the Kuali Student Curriculum Management KRAD
+    conversion project, I am involved in porting GWT code to the
+    Kuali Foundation KRAD standard.
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{University of Arizona }}
-		{\textbf{Tucson, AZ}}
-        
-	\headerrow
-		{\emph{Mosaic/KFS Architect / Mosaic Project Implementation}}
-		{\emph{October/2008 -- September/2010}}
-	\begin{itemize*}
-      \item I managed and designed integration efforts between
-        external systems like Peoplesoft and Kuali applications. 
-      \item I also created and maintained the development process used
-        for kuali applications developers to
-        produce/maintain/disseminate documentation. 
-      \item Occassionally, I define scope, developed project plans,
-        give time estimates and monitored progress of implementation
-        assignments to project team members. 
-      \item I coordinated ongoing operational research, evaluate results and recommend selections of emerging and/or relevant methodologies, programming languages and technologies. 
-      \item I have coordinated with training professionals to provide
-        training for developers, users, and administrators of the UA
-        Kuali implementation. 
-      \item I have also coordinated and documented status, setup details, process information, and
-        policies between implementation and environment teams. 
-      \item Designed a plan for change promotion process for emergency changes, bug fixes, and software updates.
-      \item Collaborated with the software development team and system/network administrators to improve the implementation architecture for reliability and sustainability.
-      \item Personally handled staffing and training of configuration management personnel.
-      \item Designed architecture for concurrent continuous integration and configuration management of systems across KFS and KC implementations.
-      \item Designed systems management and development dashboards to provide diagnostic views of KFC and KC implementations.
-      \item Integrated KFS with UA Enterprise Directory Service and BMC Control-M.
-    \end{itemize*}
+  \headerrow
+  {\emph{Development Manager (ClearBox Media, Inc.)}}
+  {\emph{May 2012 -- December 2012}}
+  \begin{itemize*}
+  \item Responsible for determining technologies we use at Clearbox
+    Media and the technical direction of our company. 
+  \item Developed location-based social, event tracking system built
+    on a graph API and a graph database.
+  \item Developed a SOA system for federating events from
+    EventBrite, Eventful, and Facebook into an event tracking
+    system.
+  \item Integrated elasticsearch indexing into our event federating
+    system.
+  \item Migrated an application built around Document-based NoSQL
+    database (CouchDb) to a graph based database system (Neo4j)
+  \end{itemize*}
+  
+  \headerrow
+  {\emph{Release Manager (Kuali Foundation)}}
+  {\emph{2011 -- 2012}}
+  \begin{itemize*}
+  \item I developed tools to manage the Kuali Rice software
+    release process. 
+  \item I also worked on releasing software to the sonatype nexus
+    repository for the Kuali Foundation. This led to releases
+    regularly becoming available via maven central for the
+    org.kuali groupId. 
+  \item I simplified our EC2 deployment process by including
+    automated delivery of software, automated Jenkins Slave nodes,
+    and automated AMI and Volume/Snapshot backups for EC2. We were
+    a small team and my focus was largely to reduce the
+    responsibility for developers through automation so they could
+    focus more on development and less on process. 
+  \item I also worked with the development team by configuring
+    and handling the performance analysis of Kuali Rice. By
+    configuring tools like java visualvm, java melody, jprobe,
+    hprof, the java garbage collector, jrocket JVM, and yourkit,
+    I have contributed in helping improve performance in Kuali
+    applications. 
+  \item I have also learned and experienced much in areas such
+    as performance tuning the JVM.
+  \item Developed a recommended reference implementation continuous
+    integration/deployment setup using vagrant and puppet
+    provisioning for Universities to quickly get started with their
+    Kuali Foundation software implementations.
+  \end{itemize*}
+  
+  \headerrow
+  {\emph{Java Developer, Senior}}
+  {\emph{2010 -- 2011}}
+  \begin{itemize*}
+  \item I have collaborated with a dispersed development team
+    including subject matter experts and business analysts on the
+    Travel and Entertainment Module. 
+  \item On the TEM project, I am responsible for determining
+    development process, technical design and writing of technical
+    specifications, software development, and change management.
+  \item I also am a mentor to other developers at rSmart.
+  \item Created training materials for Kuali Coeus, Kuali
+    Fiancials, Kuali Rice, Liquibase, and LDAP.
+  \item Developed a virtual machine with vagrant that is provisioned
+    via Puppet to create training development environments for
+    trainees to quickly become emmersed within the development tools.
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{University of Arizona}}
-		{\textbf{Tucson, AZ}}
-	
-	\headerrow
-		{\emph{Kuali Research Administration Senior Developer}}
-		{\emph{July/2007 -- September/2008}}
-	\begin{itemize*}
-      \item Developed new software components for the Proposal Development module
-      \item Created materials and taught sessions at several Kuali Bootcamp training events
-	\end{itemize*}
+\item
+  \headerrow
+  {\textbf{University of Arizona }}
+  {\textbf{Tucson, AZ}}
+  
+  \headerrow
+  {\emph{Mosaic/KFS Architect / Mosaic Project Implementation}}
+  {\emph{October/2008 -- September/2010}}
+  \begin{itemize*}
+  \item I managed and designed integration efforts between
+    external systems like Peoplesoft and Kuali applications. 
+  \item I also created and maintained the development process used
+    for kuali applications developers to
+    produce/maintain/disseminate documentation. 
+  \item Occassionally, I define scope, developed project plans,
+    give time estimates and monitored progress of implementation
+    assignments to project team members. 
+  \item I coordinated ongoing operational research, evaluate results and recommend selections of emerging and/or relevant methodologies, programming languages and technologies. 
+  \item I have coordinated with training professionals to provide
+    training for developers, users, and administrators of the UA
+    Kuali implementation. 
+  \item I have also coordinated and documented status, setup details, process information, and
+    policies between implementation and environment teams. 
+  \item Designed a plan for change promotion process for emergency changes, bug fixes, and software updates.
+  \item Collaborated with the software development team and system/network administrators to improve the implementation architecture for reliability and sustainability.
+  \item Personally handled staffing and training of configuration management personnel.
+  \item Designed architecture for concurrent continuous integration and configuration management of systems across KFS and KC implementations.
+  \item Designed systems management and development dashboards to provide diagnostic views of KFC and KC implementations.
+  \item Integrated KFS with UA Enterprise Directory Service and BMC Control-M.
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{University of Arizona}}
-		{\textbf{Tucson, AZ}}
-	\\
-	\headerrow
-		{\emph{Application Systems Analyst, Senior / Kuali Financial System Labor Distribution Development Manager and Team Lead}}
-		{\emph{November/2006 -- July/2007}}
-	\begin{itemize*}
-    \item Manage tasks/issues for resources using Atlassian Jira.
-    \item Create Confluence documentation templates for Labor Distribution developer documentation.
-    \item Participated team-oriented design and development of new software components based on an existing system.
-    \item Created gap-analysis between two existing software system to estimate project length and resources.
-    \item Trained and coached new project developers on tools (Spring, Struts MVC, OJB, and proprietary project technologies.)
-    \item Collaborated with Subject Matter Experts (SMEs) to develop timelines, functional and technical specifications, test plans, and usability test coordination.
-    \item Created Labor Distribution status reports used to inform the Kuali Foundation Board of Directors about project progress.
-    \item Developed new software components for the Labor Distribution module of
-the Kuali Financial System using Spring, DWR, Struts MVC, OJB, Kuali
-Rice, Kuali Nervous System, Kuali Enterprise Worfkflow, and JSP/JSTL.
-	\end{itemize*}
+\item
+  \headerrow
+  {\textbf{University of Arizona}}
+  {\textbf{Tucson, AZ}}
+  
+  \headerrow
+  {\emph{Kuali Research Administration Senior Developer}}
+  {\emph{July/2007 -- September/2008}}
+  \begin{itemize*}
+  \item Developed new software components for the Proposal Development module
+  \item Created materials and taught sessions at several Kuali Bootcamp training events
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{University of Arizona}}
-		{\textbf{Tucson, AZ}}
-	\\
-	\headerrow
-		{\emph{Application Systems Analyst, Senior}}
-		{\emph{June/2005 -- November/2006}}
-	\begin{itemize*}
-\item Collaborated with Subject Matter Experts (SMEs) to better
-  understand Financial Information Systems (FIS,) an existing software
-  system used by higher education institutions, and functional
-  requirements of the new software system.
-\item Maintenance development work for Kuali Project (an enterprise financial system for higher education.)
-\item Created presentations and proposals for new refactoring using
-  Atlassian Confluence, LaTeX, and UML technologies.
-\item Developed and maintained written documention of developed components using Atlassian Confluence
-\item Built OJB Mappings and Data Access Objects for persistent storage Business Objects.
-\item Developed Services in a SOA software system to be integrated with Spring Framework.
-\item Participated in design of new frameworks such as unit testing frameworks designed for specific components of the software project and a business rules validation framework.
-\item Participated in design and development of source code generating
-engines for generating OJB mappings, POJO's for business objects,
-proprietary framework XML descriptors, and unit test datasets.
-	\end{itemize*}
+\item
+  \headerrow
+  {\textbf{University of Arizona}}
+  {\textbf{Tucson, AZ}}
+  \\
+  \headerrow
+  {\emph{Application Systems Analyst, Senior / Kuali Financial System Labor Distribution Development Manager and Team Lead}}
+  {\emph{November/2006 -- July/2007}}
+  \begin{itemize*}
+  \item Manage tasks/issues for resources using Atlassian Jira.
+  \item Create Confluence documentation templates for Labor Distribution developer documentation.
+  \item Participated team-oriented design and development of new software components based on an existing system.
+  \item Created gap-analysis between two existing software system to estimate project length and resources.
+  \item Trained and coached new project developers on tools (Spring, Struts MVC, OJB, and proprietary project technologies.)
+  \item Collaborated with Subject Matter Experts (SMEs) to develop timelines, functional and technical specifications, test plans, and usability test coordination.
+  \item Created Labor Distribution status reports used to inform the Kuali Foundation Board of Directors about project progress.
+  \item Developed new software components for the Labor Distribution module of
+    the Kuali Financial System using Spring, DWR, Struts MVC, OJB, Kuali
+    Rice, Kuali Nervous System, Kuali Enterprise Worfkflow, and JSP/JSTL.
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{IBM}}
-		{\textbf{Tucson, AZ}}
-	\\
-	\headerrow
-		{\emph{Software Engineer}}
-		{\emph{April/2004 -- June/2005}}
-	\begin{itemize*}
-    \item Performing maintenance design, development, and documentation for WebSM user interface the NAS 500.
-    \item Developing NAS 500 extensions to AIX WebSM using Java, KORN/BASH shell scripting, Perl scripting, and Sed/Awk scripting.
-    \item Maintaining hardware and server software configuration of test and development servers in NAS test lab.
-    \item Assisting test personnel in configuring and executing test scenarios by debugging hardware and software problems as well as efficient use of workarounds.
-    \item Supported Enterprise Storage Server and FastT server integration with NAS 500.
-    \item Providing support as a resource to other team members for network site and software configuration (i.e. configuring network bridges, configuring network for HAGEO/HACMP configuration, and troubleshooting network configuration issues.)
-    \item Providing support as a resource to other team members for shell scripting and java software development.
-    \item Developed user interface, error inject, and test automation tools for functional verification test of IBM total storage systems (Reef and Megamouth Shark) using BASH shell scripting, Perl, and C/C++ (GTK+).
-    \item Assisted in hardware support and maintenance of IBM total storage
-      systems (Reef) by troubleshooting and replacing various hardware
-      components.
-\end{itemize*}
+\item
+  \headerrow
+  {\textbf{University of Arizona}}
+  {\textbf{Tucson, AZ}}
+  \\
+  \headerrow
+  {\emph{Application Systems Analyst, Senior}}
+  {\emph{June/2005 -- November/2006}}
+  \begin{itemize*}
+  \item Collaborated with Subject Matter Experts (SMEs) to better
+    understand Financial Information Systems (FIS,) an existing software
+    system used by higher education institutions, and functional
+    requirements of the new software system.
+  \item Maintenance development work for Kuali Project (an enterprise financial system for higher education.)
+  \item Created presentations and proposals for new refactoring using
+    Atlassian Confluence, LaTeX, and UML technologies.
+  \item Developed and maintained written documention of developed components using Atlassian Confluence
+  \item Built OJB Mappings and Data Access Objects for persistent storage Business Objects.
+  \item Developed Services in a SOA software system to be integrated with Spring Framework.
+  \item Participated in design of new frameworks such as unit testing frameworks designed for specific components of the software project and a business rules validation framework.
+  \item Participated in design and development of source code generating
+    engines for generating OJB mappings, POJO's for business objects,
+    proprietary framework XML descriptors, and unit test datasets.
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{University of Arizona}}
-		{\textbf{Tucson, AZ}}
-	\\
-	\headerrow
-		{\emph{Application Systems Analyst}}
-		{\emph{January/2002 -- April/2004}}
-	\begin{itemize*}
-    \item Mentored student developers
-    \item Created development environment suitable for multiple developers/programmers to collaborate easily on projects significantly reducing development time. Included systems for code concurrency, a build environment and tools to integrate with IDE's.
-    \item Researched and analyzed complex software systems for integration with GROW systems.
-    \item Created testing unit environment/framework with code concurrency 
-      demographics/statistics to enhance quality assurance of products.
-    \item Coordinated with administrative and technical personnel concerning implementation and adaptation of complex operating systems and related software to meet users needs.
-    \item Created tools and processes for project management to manage collaborative team projects.
-    \item Developed/designed two-tier, long-term and low maintenance application system architecture for a digital library based-on metadata structure, collection, and transport using standards/protocols such as Dublin Core and Open Archives Initiative Protocol for Metadata Harvesting.
-    \item Developed/designed metadata binding API for binding metadata in XML/Java Objects/Database Structure.
-    \item Developed/designed metadata browsing/directory service for browsing metadata from a repository through a directory service API (JNDI).
-    \item Designed database structure to support storage flexible to support different metadata formats (Dublin Core, GROW, etc...) in mass quantities on MySQL and Oracle DBMS.
-    \item Managed MySQL DBMS migration to Oracle DBMS.
-	\end{itemize*}
+\item
+  \headerrow
+  {\textbf{IBM}}
+  {\textbf{Tucson, AZ}}
+  \\
+  \headerrow
+  {\emph{Software Engineer}}
+  {\emph{April/2004 -- June/2005}}
+  \begin{itemize*}
+  \item Performing maintenance design, development, and documentation for WebSM user interface the NAS 500.
+  \item Developing NAS 500 extensions to AIX WebSM using Java, KORN/BASH shell scripting, Perl scripting, and Sed/Awk scripting.
+  \item Maintaining hardware and server software configuration of test and development servers in NAS test lab.
+  \item Assisting test personnel in configuring and executing test scenarios by debugging hardware and software problems as well as efficient use of workarounds.
+  \item Supported Enterprise Storage Server and FastT server integration with NAS 500.
+  \item Providing support as a resource to other team members for network site and software configuration (i.e. configuring network bridges, configuring network for HAGEO/HACMP configuration, and troubleshooting network configuration issues.)
+  \item Providing support as a resource to other team members for shell scripting and java software development.
+  \item Developed user interface, error inject, and test automation tools for functional verification test of IBM total storage systems (Reef and Megamouth Shark) using BASH shell scripting, Perl, and C/C++ (GTK+).
+  \item Assisted in hardware support and maintenance of IBM total storage
+    systems (Reef) by troubleshooting and replacing various hardware
+    components.
+  \end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{Coremetrics, Inc.}}
-		{\textbf{Austin, TX}}
-	\\
-	\headerrow
-		{\emph{Network Systems Programmer/Analysis, and Data
-            Acquisition Engineer}}
-		{\emph{June/1999 -- November/2001}}
-	\begin{itemize*}
-    \item Developed three-tier distributed applications with Java using Servlets, JSP, JDBC 2.0 (oracle Platform), Enterprise Java Beans 1.1 JINI 1.0.1 and Java Spaces.
-    \item Maintained Apache Web Server module used for data collection.
-    \item Developed network tools to validate links and Cormetrics JavaScript code on remote E-Commerce sites.
-    \item Developed tools using Perl, Java, C/C++ and BASH to simulate multitudes of concurrent client connections to servers and load-balancing hardware/software over protocols such as SSL, SSH, RSH, HTTP, and JMS.
-    \item Developed tools written in various languages (Perl, BASH, PHP) for validating integrity of data frequently transported across network domains of database servers.
-    \item Developed tools for encrypted data transport over TCP/IP using C/C++ and Java.
-    \item Engineered Enterprise solution using Java, XML, and/or C/C++ for database analysis and network communication between servers, domains and subnets by message protocols over multicast or point-to-point networking standards.
-    \item Increased data security and integrity in Cormetrics network
-      communication architecture with tools that handle software
-      load-balancing, dynamic network data transfer demographics, multiple
-      future plans for standard data structures with XML, XSLT, XML-schemas,
-      and proprietary encoding formats.
-    \end{itemize*}
+\item
+  \headerrow
+  {\textbf{University of Arizona}}
+  {\textbf{Tucson, AZ}}
+  \\
+  \headerrow
+  {\emph{Application Systems Analyst}}
+  {\emph{January/2002 -- April/2004}}
+  \begin{itemize*}
+  \item Mentored student developers
+  \item Created development environment suitable for multiple developers/programmers to collaborate easily on projects significantly reducing development time. Included systems for code concurrency, a build environment and tools to integrate with IDE's.
+  \item Researched and analyzed complex software systems for integration with GROW systems.
+  \item Created testing unit environment/framework with code concurrency 
+    demographics/statistics to enhance quality assurance of products.
+  \item Coordinated with administrative and technical personnel concerning implementation and adaptation of complex operating systems and related software to meet users needs.
+  \item Created tools and processes for project management to manage collaborative team projects.
+  \item Developed/designed two-tier, long-term and low maintenance application system architecture for a digital library based-on metadata structure, collection, and transport using standards/protocols such as Dublin Core and Open Archives Initiative Protocol for Metadata Harvesting.
+  \item Developed/designed metadata binding API for binding metadata in XML/Java Objects/Database Structure.
+  \item Developed/designed metadata browsing/directory service for browsing metadata from a repository through a directory service API (JNDI).
+  \item Designed database structure to support storage flexible to support different metadata formats (Dublin Core, GROW, etc...) in mass quantities on MySQL and Oracle DBMS.
+  \item Managed MySQL DBMS migration to Oracle DBMS.
+  \end{itemize*}
+
+\item
+  \headerrow
+  {\textbf{Coremetrics, Inc.}}
+  {\textbf{Austin, TX}}
+  \\
+  \headerrow
+  {\emph{Network Systems Programmer/Analysis, and Data
+      Acquisition Engineer}}
+  {\emph{June/1999 -- November/2001}}
+  \begin{itemize*}
+  \item Developed three-tier distributed applications with Java using Servlets, JSP, JDBC 2.0 (oracle Platform), Enterprise Java Beans 1.1 JINI 1.0.1 and Java Spaces.
+  \item Maintained Apache Web Server module used for data collection.
+  \item Developed network tools to validate links and Cormetrics JavaScript code on remote E-Commerce sites.
+  \item Developed tools using Perl, Java, C/C++ and BASH to simulate multitudes of concurrent client connections to servers and load-balancing hardware/software over protocols such as SSL, SSH, RSH, HTTP, and JMS.
+  \item Developed tools written in various languages (Perl, BASH, PHP) for validating integrity of data frequently transported across network domains of database servers.
+  \item Developed tools for encrypted data transport over TCP/IP using C/C++ and Java.
+  \item Engineered Enterprise solution using Java, XML, and/or C/C++ for database analysis and network communication between servers, domains and subnets by message protocols over multicast or point-to-point networking standards.
+  \item Increased data security and integrity in Cormetrics network
+    communication architecture with tools that handle software
+    load-balancing, dynamic network data transfer demographics, multiple
+    future plans for standard data structures with XML, XSLT, XML-schemas,
+    and proprietary encoding formats.
+  \end{itemize*}
 \end{itemize}
-    
+
 \hrule
 \vspace{-0.4em}
 \subsection*{Education}
 
 \begin{itemize}
-	\parskip=0.1em
+  \parskip=0.1em
 
-	\item 
-	\headerrow
-		{\textbf{Pima County Community College}}
-		{\textbf{Tucson, AZ}}
-	\\
-	\headerrow
-		{\emph{AGECS}}
-		{\emph{1994 -- 1999}}
+\item 
+  \headerrow
+  {\textbf{Pima County Community College}}
+  {\textbf{Tucson, AZ}}
+  \\
+  \headerrow
+  {\emph{AGECS}}
+  {\emph{1994 -- 1999}}
 
-	\item 
-	\headerrow
-		{\textbf{University of Arizona}}
-		{\textbf{Tucson, AZ}}
-	\\
-	\headerrow
-		{\emph{Linguistics/Computer Science}}
-		{\emph{2008 -- Present}}
+\item 
+  \headerrow
+  {\textbf{University of Arizona}}
+  {\textbf{Tucson, AZ}}
+  \\
+  \headerrow
+  {\emph{Linguistics/Computer Science}}
+  {\emph{2008 -- Present}}
 
 \end{itemize}
 

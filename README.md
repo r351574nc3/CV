@@ -42,16 +42,15 @@ institutions on large scale software systems, web services, middleware, and java
 * When I’m not travelling, I work on developing software for the Kuali Foundation.
 * I have collaborated with a dispersed development team including subject matter experts and business
 analysts on the Travel and Entertainment Module.
-* OntheTEMproject,Iamresponsiblefordeterminingdevelopmentprocess,technicaldesignandwriting
+* On the TEM project, I am responsible for determining development process,technical design and writing
 of technical specifications, software development, and change management.
-* I also am a mentor to other developers at rSmart.
-Release Manager (Kuali Foundation) 2011 - 2012
+* I also am a mentor to other developers at rSmart.Release Manager (Kuali Foundation) 2011 - 2012
 * I developed tools to manage the Kuali Rice software release process.
 * I also worked on releasing software to the sonatype nexus repository for the Kuali Foundation. This led
 to releases regularly becoming available via maven central for the org.kuali groupId.
-* IsimplifiedourEC2deploymentprocessbyincludingautomateddeliveryofsoftware,automatedJenkins Slave nodes, and automated AMI and Volume/Snapshot backups for EC2. We were a small team and my focus was largely to reduce the responsibility for developers through automation so they could focus
+* I simplified our EC2 deployment process by including automated delivery of software, automated Jenkins Slave nodes, and automated AMI and Volume/Snapshot backups for EC2. We were a small team and my focus was largely to reduce the responsibility for developers through automation so they could focus
 more on development and less on process.
-* IalsoworkedwiththedevelopmentteambyconfiguringandhandlingtheperformanceanalysisofKuali
+* I also worked with the development team by configuring and handling the performance analysis of Kuali
 Rice. By configuring tools like java visualvm, java melody, jprobe, hprof, the java garbage collector, jrocket
 JVM, and yourkit, I have contributed in helping improve performance in Kuali applications.
 * I have also learned and experienced much in areas such as performance tuning the JVM.
@@ -59,7 +58,7 @@ Java Developer 2010 - 2011
 * I worked on developing software for the Kuali Foundation.
 * I have collaborated with a dispersed development team including subject matter experts and business
 analysts on the Travel and Entertainment Module.
-* OntheTEMproject,Iamresponsiblefordeterminingdevelopmentprocess,technicaldesignandwriting
+* On the TEM project, I am responsible for determiningdevelopmentprocess,technicaldesignandwriting
 of technical specifications, software development, and change management.
 * I also am a mentor to other developers at rSmart.
 * University of Arizona Tucson, AZ Mosaic/KFS Architect / Mosaic Project Implementation October/2008 - September/2010
